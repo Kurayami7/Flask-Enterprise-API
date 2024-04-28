@@ -8,16 +8,16 @@
 ![image](https://github.com/Kurayami7/Flask-Enterprise-API/assets/124408792/a4351f9b-d597-4ed5-bef8-185456354f05)
 
 ### Get started
-First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip.
- python get-pip.py
- pip install flask
- pip install tables 
- pip install flask_sqlalchemy
- pip install requests
+First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br>
+ python get-pip.py <br>
+ pip install flask <br>
+ pip install tables <br>
+ pip install flask_sqlalchemy <br>
+ pip install requests <br>
 
-Then, you will need to set up a virtual environment which will let you perform ~illegal~ modifications without affecting your local system files.
- $env:FLASK_APP = "moodle_flask_api.py"
- SET FLASK_APP=moodle_flask_api.py
+Then, you will need to set up a virtual environment which will let you perform ~illegal~ modifications without affecting your local system files. <br>
+ $env:FLASK_APP = "moodle_flask_api.py" <br>
+ SET FLASK_APP=moodle_flask_api.py <br>
 
 You can then run your API on your localhost via flask:
 flask run

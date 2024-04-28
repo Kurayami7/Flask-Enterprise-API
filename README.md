@@ -8,7 +8,7 @@
 ![image](https://github.com/Kurayami7/Flask-Enterprise-API/assets/124408792/a4351f9b-d597-4ed5-bef8-185456354f05)
 
 ### Get started
-First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br>
+First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br><br>
  python get-pip.py <br>
  pip install flask <br>
  pip install tables <br>

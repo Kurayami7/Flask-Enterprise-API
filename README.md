@@ -9,18 +9,18 @@
 
 ### Get started
 First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br><br>
- python get-pip.py <br>
- pip install flask <br>
- pip install tables <br>
- pip install flask_sqlalchemy <br>
- pip install requests <br>
+ * python get-pip.py <br>
+ * pip install flask <br>
+ * pip install tables <br>
+ * pip install flask_sqlalchemy <br>
+ * pip install requests <br>
 
 Then, you will need to set up a virtual environment which will let you perform ~illegal~ modifications without affecting your local system files. <br>
- $env:FLASK_APP = "moodle_flask_api.py" <br>
- SET FLASK_APP=moodle_flask_api.py <br>
+ * $env:FLASK_APP = "moodle_flask_api.py" <br>
+ * SET FLASK_APP=moodle_flask_api.py <br>
 
 You can then run your API on your localhost via flask:
-flask run
+* flask run
 
 
 ### Test in Postman

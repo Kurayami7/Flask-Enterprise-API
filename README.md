@@ -8,7 +8,14 @@
 ![image](https://github.com/Kurayami7/Flask-Enterprise-API/assets/124408792/a4351f9b-d597-4ed5-bef8-185456354f05)
 
 ### Get started
-First, you will need ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br><br>
+The Moodle settings:
+* Site Administration > External Services > Add (add a new service which contains the `gradereport_user_get_grade_items` function.
+* You will need to create a token for the function you just added. Go back to Site Administration > Manage tokens > Create Token using the service you just added.
+![image](https://github.com/Kurayami7/Flask-Enterprise-API/assets/124408792/ece04b8a-e3c9-417a-98c9-ebae77fefdb6)
+![image](https://github.com/Kurayami7/Flask-Enterprise-API/assets/124408792/0c18dfdf-a31f-401e-a4ad-db883deb9eee)
+
+
+Ensure you have Python installed. We will also need to install a couple of libraries via Pip. <br><br>
  * python get-pip.py <br>
  * pip install flask <br>
  * pip install tables <br>
